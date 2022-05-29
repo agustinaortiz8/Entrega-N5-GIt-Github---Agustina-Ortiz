@@ -1,0 +1,208 @@
+@media screen and (max-width: 480px) {
+    header {
+        width: 480px;
+        display: flex;
+        justify-items: left;
+    }
+
+    .logo__header {
+        position: relative;
+        left: 150px;
+    }
+    nav {
+        width: 480px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
+}
+
+.flex-conteiner {
+    display: flex;
+    gap: 20px;
+    flex-direction:column-reverse;
+    flex-wrap:wrap-reverse;
+    width: 400px;
+    height:auto;
+    position: relative;
+    left: 40px;  
+}
+
+.nuestros__productos {
+    display: flex;
+    justify-items: left;
+    margin: 30px;
+    width: 400px;
+}
+
+h2 {
+    position: relative;
+    top: 100px;
+}
+
+aside {
+    overflow-x: hidden;
+}
+
+footer {
+    width: 480px;
+}
+h6 {
+    position: relative;
+    left: 80px;
+}
+
+.appcontacto1{
+    display: flex;
+   justify-content: right;
+    z-index: 9999px;
+
+}
+
+.appcontacto1 img{
+    width: 50px;
+    height: auto;
+   
+}
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        width: 768px;
+        display: flex;
+        justify-items: left;
+    }
+
+    .logo__header {
+        position: relative;
+        left: 300px;
+    }
+    nav {
+        width: 768px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
+}
+
+.flex-conteiner {
+    display: flex;
+    gap: 20px;
+    flex-direction:column-reverse;
+    flex-wrap:wrap-reverse;
+    width: 400px;
+    height:auto;
+    position: relative;
+    left: 40px;  
+}
+
+
+aside {
+    overflow-x: hidden;
+}
+
+footer {
+    width: 768px;
+}
+h6 {
+    position: relative;
+    left: 80px;
+}
+
+.appcontacto1{
+    display: flex;
+   justify-content: right;
+    z-index: 9999px;
+
+}
+
+.appcontacto1 img{
+    width: 50px;
+    height: auto;
+   
+}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+    header {
+        width: 1400px;
+        display: flex;
+        justify-items: left;
+    }
+
+    .logo__header {
+        position: relative;
+        left: 600px;
+    }
+    nav {
+        width: 1400px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
+}
+
+.flex-conteiner {
+    display: flex;
+    gap: 20px;
+    width: 1400px;
+    height:auto;
+    position: relative;
+    left: 40px;  
+}
+
+.nuestros__productos {
+    display: flex;
+    justify-items: left;
+    margin: 30px;
+    width: 400px;
+}
+
+h2 {
+    position: relative;
+    top: 100px;
+}
+
+aside {
+    overflow-x: hidden;
+}
+
+footer {
+    width: 1400px;
+}
+h6 {
+    position: relative;
+    left: 530px;
+}
+
+.appcontacto1{
+    display: flex;
+   justify-content: right;
+    z-index: 9999px;
+
+}
+
+.appcontacto1 img{
+    width: 50px;
+    height: auto;
+   
+}
+
+
+}
